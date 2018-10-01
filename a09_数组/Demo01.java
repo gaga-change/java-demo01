@@ -1,5 +1,7 @@
 package a09_数组;
 
+import java.util.Arrays;
+
 /*
 定义数组方法：
 静态创建
@@ -22,6 +24,7 @@ public class Demo01 {
         int[] test3 = new int[3];
 
         sayArr(test2);
+        System.out.println(Arrays.toString(new float[4]));
     }
 
     public static String arrToStr(int[] arr) {
